@@ -60,3 +60,11 @@ Clonez le dépôt Git avec la commande suivante :
 ```
 git clone https://github.com/safae12-1/Projet_data_lake.git
 ```
+### Démarrage des Conteneurs:
+Accédez au dossier api :  
+```
+cd api
+```
+```
+docker build -t streaming-api .
+```
