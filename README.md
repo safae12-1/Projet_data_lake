@@ -84,13 +84,14 @@ pip install kafka-python
 ```
 ###  Lancement du traitement:
 #### Kafka-UI:
-Accédez à l'interface Kafka à l'adresse :```
+Accédez à l'interface Kafka à l'adresse :
+```
 http://localhost:8080
 ```  
 Ajoutez un topic nommé  
 ```
 stream_data
-```.
+```
 #### Producteur Kafka:
 Exécutez cette commande pour démarrer le producer :  
 ```
