@@ -87,4 +87,8 @@ pip install kafka-python
 Accédez à l'interface Kafka à l'adresse :```http://localhost:8080``` Ajoutez un topic nommé ```stream_data```.
 #### Producteur Kafka:
 Exécutez cette commande pour démarrer le producer : 
-```spark-submit kafka_producer.py```
+```spark-submit kafka_producer.py```  
+#### Consommateur Spark 
+Créer le dossier user/hive/warehouse/mental_health avec la commande :
+```hdfs dfs -mkdir -p /user/hive/warehouse/mental_health```  
+
