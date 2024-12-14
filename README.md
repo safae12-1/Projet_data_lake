@@ -24,24 +24,24 @@ Sleep_Quality (1-10) : score de qualité du sommeil autodéclaré.
 ## Architecture du Projet
 L'architecture du projet repose sur une approche modulaire qui combine plusieurs technologies et composants pour gérer le flux de données, leur traitement, et leur visualisation. Voici une vue d'ensemble de l'architecture :
 
-### FastAPI (API RESTful) :
+#### FastAPI (API RESTful) :
 
 FastAPI sert de serveur pour exposer les données sous forme de flux JSON. Elle lit les données d'un fichier CSV (dans ce cas, mental_health_and_technology_usage_2024.csv) et les envoie sous forme de flux continu.
-### Kafka (Système de messagerie) :
+#### Kafka (Système de messagerie) :
 
 Kafka est utilisé pour gérer le flux de données en temps réel. Il sert de mécanisme de publication/abonnement où le producteur (FastAPI) publie les messages (données CSV) et le consommateur (Apache Spark) les consomme.  
 Kafka dispose d'une interface graphique via Kafka UI pour surveiller et gérer les topics.
-### Apache Spark (Traitement distribué) :
+#### Apache Spark (Traitement distribué) :
 
 Apache Spark est utilisé pour consommer les messages provenant de Kafka, les nettoyer, effectuer des transformations et les stocker dans Hive pour un traitement ultérieur.
-### Hive (Data Warehouse) :
+#### Hive (Data Warehouse) :
 
 Les données nettoyées et transformées par Spark sont stockées dans Hive. Hive agit ici comme un entrepôt de données pour les requêtes SQL sur de grandes quantités de données.
-### Apache Druid (Stockage et analyse OLAP) :
+#### Apache Druid (Stockage et analyse OLAP) :
 
 Apache Druid est utilisé pour effectuer des analyses en temps réel sur les données stockées dans Hive. Druid offre une architecture orientée colonne, optimisée pour les requêtes analytiques rapides.  
 Les données sont chargées depuis HDFS dans Apache Druid, et plusieurs requêtes analytiques sont exécutées pour extraire des informations utiles.
-### Power BI (Visualisation) :
+#### Power BI (Visualisation) :
 
 Les données traitées et analysées sont exportées vers Power BI pour la visualisation.  
 Power BI permet de créer des rapports dynamiques, interactifs et des KPI basés sur les données stockées dans Hive et analysées par Druid.
