@@ -55,3 +55,8 @@ python est installé et en fonctionnement sur votre machine
 ```
 python --version
 ```
+### Clonage du Projet:
+Clonez le dépôt Git avec la commande suivante :  
+```
+git clone https://github.com/safae12-1/Projet_data_lake.git
+```
