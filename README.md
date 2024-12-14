@@ -73,4 +73,8 @@ Pour démarrer les conteneurs, on exécute la commande suivante
 ```
 docker-compose up -d
 ```
-
+### 4.	Configuration de spark-master:
+Accédez au conteneur Spark-Master :  
+```
+docker exec -it spark-master bash
+```
