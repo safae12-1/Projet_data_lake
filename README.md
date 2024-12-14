@@ -65,9 +65,11 @@ Accédez au dossier api :
 ```
 cd api
 ```
+cette commande crée une image Docker nommée streaming-api, intégrant une application FastAPI pour diffuser les données du fichier CSV sous forme de flux.
 ```
 docker build -t streaming-api .
 ```
+Pour démarrer les conteneurs, on exécute la commande suivante 
 ```
 docker-compose up -d
 ```
