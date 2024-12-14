@@ -114,7 +114,15 @@ Pour démarrer le consommateur, exécutez la commande suivante :
 ```
 spark-submit --master spark://172.28.0.14:7077  --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.2  kafka_consumer.py
 ```
-
+#### Apache Druid
+Accédez à l'interface principale de Druid en utilisant l'URL suivant : 
+```
+http://localhost:8888/unified-console.html
+```
+Cliquez sur HDFS, puis saisissez le chemin suivant pour récupérer tous les fichiers Parquet enregistrés sur HDFS :  
+```
+hdfs://172.28.0.20:8020/user/hive/warehouse/mental_health/
+```
 
 
 
