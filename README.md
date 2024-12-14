@@ -48,5 +48,5 @@ Power BI permet de créer des rapports dynamiques, interactifs et des KPI basés
 ## Exécution:
 ### Pré-requis:
 Docker Desktop installé sur votre système  
-```docker --version```  
+```bash docker --version
 python est installé et en fonctionnement sur votre machine  
