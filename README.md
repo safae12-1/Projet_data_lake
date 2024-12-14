@@ -7,9 +7,9 @@ L’objectif principal est de créer un système qui capte des données en temps
 
 Les étapes principales du projet incluent :
 
-Création d'un flux de données en temps réel : Utilisation de FastAPI pour diffuser un fichier CSV sous forme de flux JSON.
-Consommation et nettoyage des données : Utilisation de Kafka pour le streaming des données et de Spark pour leur consommation, nettoyage et stockage dans une base Hive.
-Analyse avec Apache Druid : Traitement des données avec Apache Druid pour effectuer des requêtes d’agrégation sur de grandes quantités de données.
-Visualisation des données avec Power BI : Exportation des données vers Power BI pour créer des visualisations interactives qui facilitent la prise de décisions basées sur les analyses.
+-Création d'un flux de données en temps réel : Utilisation de FastAPI pour diffuser un fichier CSV sous forme de flux JSON.
+-Consommation et nettoyage des données : Utilisation de Kafka pour le streaming des données et de Spark pour leur consommation, nettoyage et stockage dans une base Hive.
+-Analyse avec Apache Druid : Traitement des données avec Apache Druid pour effectuer des requêtes d’agrégation sur de grandes quantités de données.
+-Visualisation des données avec Power BI : Exportation des données vers Power BI pour créer des visualisations interactives qui facilitent la prise de décisions basées sur les analyses.
 
 ## Architecture du Projet
