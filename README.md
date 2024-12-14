@@ -68,3 +68,6 @@ cd api
 ```
 docker build -t streaming-api .
 ```
+```
+docker-compose up -d
+```
