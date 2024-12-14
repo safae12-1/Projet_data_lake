@@ -89,7 +89,15 @@ Accédez à l'interface Kafka à l'adresse :```http://localhost:8080``` Ajoutez 
 Exécutez cette commande pour démarrer le producer : 
 ```spark-submit kafka_producer.py```  
 #### Consommateur Spark 
-Accéder au conteneur namenode avec la commande ```docker exec -it namenode bash```  
+Accéder au conteneur namenode avec la commande : ```docker exec -it namenode bash```  
 Créer le dossier user/hive/warehouse/mental_health avec la commande :
 ```hdfs dfs -mkdir -p /user/hive/warehouse/mental_health```  
+Avant d’exécuter le script consommateur, il est nécessaire de créer la table mental_health dans Hive, où les données seront stockées, en utilisant la requête suivante :
+```CREATE TABLE mental_health (User_ID STRING,Age INT,Gender STRING,Technology_Usage_Hours DOUBLE,Social_Media_Usage_Hours DOUBLE,Gaming_Hours DOUBLE,Screen_Time_Hours DOUBLE,Mental_Health_Status STRING,Stress_Level STRING, Sleep_Hours DOUBLE,Physical_Activity_Hours DOUBLE,Support_Systems_Access STRING,Work_Environment_Impact STRING,Online_Support_Usage STRING) STORED AS PARQUET
+LOCATION 'hdfs://namenode:8020/user/hive/warehouse/mental_health';```
+Pour démarrer le consommateur, exécutez la commande suivante :  
+```spark-submit --master spark://172.28.0.14:7077  --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.2  kafka_consumer.py```
+
+
+
 
