@@ -45,3 +45,8 @@ Les données sont chargées depuis HDFS dans Apache Druid, et plusieurs requête
 
 Les données traitées et analysées sont exportées vers Power BI pour la visualisation.  
 Power BI permet de créer des rapports dynamiques, interactifs et des KPI basés sur les données stockées dans Hive et analysées par Druid.
+## Exécution:
+### Pré-requis:
+Docker Desktop installé sur votre système  
+''' docker --version
+python est installé et en fonctionnement sur votre machine  
