@@ -78,3 +78,7 @@ Accédez au conteneur Spark-Master :
 ```
 docker exec -it spark-master bash
 ```
+Naviguez dans le répertoire /app et installez Kafka-python pour que Spark consomme les flux de données de Kafka.  
+```
+pip install kafka-python 
+```
