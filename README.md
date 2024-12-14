@@ -52,3 +52,6 @@ Docker Desktop installé sur votre système
 docker --version
 ``` 
 python est installé et en fonctionnement sur votre machine  
+```
+python --version
+```
