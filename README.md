@@ -25,7 +25,6 @@ Kafka dispose d'une interface graphique via Kafka UI pour surveiller et gérer l
 ### Apache Spark (Traitement distribué) :
 
 Apache Spark est utilisé pour consommer les messages provenant de Kafka, les nettoyer, effectuer des transformations et les stocker dans Hive pour un traitement ultérieur.
-Le traitement Spark permet également de réaliser des calculs d'agrégations en temps réel sur les données reçues.
 ### Hive (Data Warehouse) :
 
 Les données nettoyées et transformées par Spark sont stockées dans Hive. Hive agit ici comme un entrepôt de données pour les requêtes SQL sur de grandes quantités de données.
