@@ -73,7 +73,7 @@ Pour démarrer les conteneurs, on exécute la commande suivante
 ```
 docker-compose up -d
 ```
-### 4.	Configuration de spark-master:
+### Configuration de spark-master:
 Accédez au conteneur Spark-Master :  
 ```
 docker exec -it spark-master bash
@@ -82,3 +82,6 @@ Naviguez dans le répertoire /app et installez Kafka-python pour que Spark conso
 ```
 pip install kafka-python 
 ```
+###  Lancement du traitement:
+#### Kafka-UI:
+Accédez à l'interface Kafka à l'adresse :```http://localhost:8080``` Ajoutez un topic nommé stream_data.
