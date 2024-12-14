@@ -11,6 +11,15 @@ Les étapes principales du projet incluent :
 -Consommation et nettoyage des données : Utilisation de Kafka pour le streaming des données et de Spark pour leur consommation, nettoyage et stockage dans une base Hive.
 -Analyse avec Apache Druid : Traitement des données avec Apache Druid pour effectuer des requêtes d’agrégation sur de grandes quantités de données.
 -Visualisation des données avec Power BI : Exportation des données vers Power BI pour créer des visualisations interactives qui facilitent la prise de décisions basées sur les analyses.
+## Description du Dataset:
+L'ensemble de données comprend des colonnes qui suivent l'utilisation quotidienne de la technologie et les indicateurs de santé mentale d'un individu. Voici ce qui est inclus :
+
+User_ID : identifiant unique pour chaque participant.
+Age : âge du participant.
+Daily_Screen_Time (heures) : temps d'écran quotidien moyen en heures.
+Mental_Health_Score (1-10) : score de santé mentale autodéclaré, où 1 est mauvais et 10 est excellent.
+Stress_Level (1-10) : niveau de stress autodéclaré, où 1 est très faible et 10 est très élevé.
+Sleep_Quality (1-10) : score de qualité du sommeil autodéclaré.
 
 ## Architecture du Projet
 L'architecture du projet repose sur une approche modulaire qui combine plusieurs technologies et composants pour gérer le flux de données, leur traitement, et leur visualisation. Voici une vue d'ensemble de l'architecture :
