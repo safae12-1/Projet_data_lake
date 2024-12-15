@@ -22,6 +22,8 @@ Stress_Level (1-10) : niveau de stress autodéclaré, où 1 est très faible et 
 Sleep_Quality (1-10) : score de qualité du sommeil autodéclaré.
 
 ## Architecture du Projet
+![WhatsApp Image 2024-12-15 at 11 30 50](https://github.com/user-attachments/assets/a37eb485-03b6-476c-a2b7-5bbae65d00e8)
+
 L'architecture du projet repose sur une approche modulaire qui combine plusieurs technologies et composants pour gérer le flux de données, leur traitement, et leur visualisation. Voici une vue d'ensemble de l'architecture :
 
 #### FastAPI (API RESTful) :
