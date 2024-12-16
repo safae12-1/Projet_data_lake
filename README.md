@@ -14,12 +14,20 @@ Les étapes principales du projet incluent :
 ## Description du Dataset:
 L'ensemble de données comprend des colonnes qui suivent l'utilisation quotidienne de la technologie et les indicateurs de santé mentale d'un individu. Voici ce qui est inclus :  
 
-User_ID : identifiant unique pour chaque participant.  
-Age : âge du participant.  
-Daily_Screen_Time (heures) : temps d'écran quotidien moyen en heures.  
-Mental_Health_Score (1-10) : score de santé mentale autodéclaré, où 1 est mauvais et 10 est excellent.  
-Stress_Level (1-10) : niveau de stress autodéclaré, où 1 est très faible et 10 est très élevé.  
-Sleep_Quality (1-10) : score de qualité du sommeil autodéclaré.
+User_ID : Identifiant unique de chaque participant.  
+Age : Âge du participant.  
+Gender : Genre (Male, Female, etc.).  
+Technology_Usage_Hours : Temps d'utilisation total des technologies (en heures par jour).  
+Social_Media_Usage_Hours : Temps passé sur les réseaux sociaux (en heures par jour).  
+Gaming_Hours : Temps consacré aux jeux vidéo (en heures par jour).  
+Screen_Time_Hours : Temps total devant un écran (en heures par jour).  
+Mental_Health_Status : État de santé mentale (Good, Poor, Excellent, etc.).  
+Stress_Level : Niveau de stress (Low, Medium, High).  
+Sleep_Hours : Nombre d'heures de sommeil par jour.  
+Physical_Activity_Hours : Temps consacré à l'activité physique (en heures par jour).  
+Support_Systems_Access : Accès à des systèmes de soutien (Yes, No).  
+Work_Environment_Impact : Impact de l'environnement de travail (Positive, Negative).  
+Online_Support_Usage : Utilisation de supports en ligne pour l'assistance (Yes, No).  
 
 ## Architecture du Projet
 ![WhatsApp Image 2024-12-15 at 11 30 50](https://github.com/user-attachments/assets/a37eb485-03b6-476c-a2b7-5bbae65d00e8)
