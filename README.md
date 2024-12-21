@@ -30,7 +30,7 @@ Work_Environment_Impact : Impact de l'environnement de travail (Positive, Negati
 Online_Support_Usage : Utilisation de supports en ligne pour l'assistance (Yes, No).  
 
 ## Architecture du Projet
-![WhatsApp Image 2024-12-15 at 11 30 50](https://github.com/user-attachments/assets/a37eb485-03b6-476c-a2b7-5bbae65d00e8)
+![image](https://github.com/user-attachments/assets/0b21b4b2-3b7b-4b80-9d5b-4fe39748e838)
 
 L'architecture du projet repose sur une approche modulaire qui combine plusieurs technologies et composants pour gérer le flux de données, leur traitement, et leur visualisation. Voici une vue d'ensemble de l'architecture :
 
